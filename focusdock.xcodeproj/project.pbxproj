@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293DBA1F2B27C64300456C95 /* focusdockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DBA1E2B27C64300456C95 /* focusdockApp.swift */; };
+		293DBA212B27C64300456C95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DBA202B27C64300456C95 /* ContentView.swift */; };
+		293DBA232B27C64600456C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293DBA222B27C64600456C95 /* Assets.xcassets */; };
+		293DBA262B27C64600456C95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293DBA252B27C64600456C95 /* Preview Assets.xcassets */; };
+		293DBA312B27C64700456C95 /* focusdockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DBA302B27C64700456C95 /* focusdockTests.swift */; };
+		293DBA3B2B27C64700456C95 /* focusdockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DBA3A2B27C64700456C95 /* focusdockUITests.swift */; };
+		293DBA3D2B27C64700456C95 /* focusdockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DBA3C2B27C64700456C95 /* focusdockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293DBA2D2B27C64700456C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293DBA132B27C64300456C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293DBA1A2B27C64300456C95;
+			remoteInfo = focusdock;
+		};
+		293DBA372B27C64700456C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293DBA132B27C64300456C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293DBA1A2B27C64300456C95;
+			remoteInfo = focusdock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293DBA1B2B27C64300456C95 /* focusdock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = focusdock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293DBA1E2B27C64300456C95 /* focusdockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusdockApp.swift; sourceTree = "<group>"; };
+		293DBA202B27C64300456C95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		293DBA222B27C64600456C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293DBA252B27C64600456C95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		293DBA272B27C64600456C95 /* focusdock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = focusdock.entitlements; sourceTree = "<group>"; };
+		293DBA2C2B27C64700456C95 /* focusdockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = focusdockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293DBA302B27C64700456C95 /* focusdockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusdockTests.swift; sourceTree = "<group>"; };
+		293DBA362B27C64700456C95 /* focusdockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = focusdockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293DBA3A2B27C64700456C95 /* focusdockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusdockUITests.swift; sourceTree = "<group>"; };
+		293DBA3C2B27C64700456C95 /* focusdockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusdockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293DBA182B27C64300456C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBA292B27C64700456C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBA332B27C64700456C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293DBA122B27C64300456C95 = {
+			isa = PBXGroup;
+			children = (
+				293DBA1D2B27C64300456C95 /* focusdock */,
+				293DBA2F2B27C64700456C95 /* focusdockTests */,
+				293DBA392B27C64700456C95 /* focusdockUITests */,
+				293DBA1C2B27C64300456C95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293DBA1C2B27C64300456C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293DBA1B2B27C64300456C95 /* focusdock.app */,
+				293DBA2C2B27C64700456C95 /* focusdockTests.xctest */,
+				293DBA362B27C64700456C95 /* focusdockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293DBA1D2B27C64300456C95 /* focusdock */ = {
+			isa = PBXGroup;
+			children = (
+				293DBA1E2B27C64300456C95 /* focusdockApp.swift */,
+				293DBA202B27C64300456C95 /* ContentView.swift */,
+				293DBA222B27C64600456C95 /* Assets.xcassets */,
+				293DBA272B27C64600456C95 /* focusdock.entitlements */,
+				293DBA242B27C64600456C95 /* Preview Content */,
+			);
+			path = focusdock;
+			sourceTree = "<group>";
+		};
+		293DBA242B27C64600456C95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				293DBA252B27C64600456C95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		293DBA2F2B27C64700456C95 /* focusdockTests */ = {
+			isa = PBXGroup;
+			children = (
+				293DBA302B27C64700456C95 /* focusdockTests.swift */,
+			);
+			path = focusdockTests;
+			sourceTree = "<group>";
+		};
+		293DBA392B27C64700456C95 /* focusdockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				293DBA3A2B27C64700456C95 /* focusdockUITests.swift */,
+				293DBA3C2B27C64700456C95 /* focusdockUITestsLaunchTests.swift */,
+			);
+			path = focusdockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293DBA1A2B27C64300456C95 /* focusdock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293DBA402B27C64700456C95 /* Build configuration list for PBXNativeTarget "focusdock" */;
+			buildPhases = (
+				293DBA172B27C64300456C95 /* Sources */,
+				293DBA182B27C64300456C95 /* Frameworks */,
+				293DBA192B27C64300456C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = focusdock;
+			productName = focusdock;
+			productReference = 293DBA1B2B27C64300456C95 /* focusdock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293DBA2B2B27C64700456C95 /* focusdockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293DBA432B27C64700456C95 /* Build configuration list for PBXNativeTarget "focusdockTests" */;
+			buildPhases = (
+				293DBA282B27C64700456C95 /* Sources */,
+				293DBA292B27C64700456C95 /* Frameworks */,
+				293DBA2A2B27C64700456C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293DBA2E2B27C64700456C95 /* PBXTargetDependency */,
+			);
+			name = focusdockTests;
+			productName = focusdockTests;
+			productReference = 293DBA2C2B27C64700456C95 /* focusdockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		293DBA352B27C64700456C95 /* focusdockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293DBA462B27C64700456C95 /* Build configuration list for PBXNativeTarget "focusdockUITests" */;
+			buildPhases = (
+				293DBA322B27C64700456C95 /* Sources */,
+				293DBA332B27C64700456C95 /* Frameworks */,
+				293DBA342B27C64700456C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293DBA382B27C64700456C95 /* PBXTargetDependency */,
+			);
+			name = focusdockUITests;
+			productName = focusdockUITests;
+			productReference = 293DBA362B27C64700456C95 /* focusdockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293DBA132B27C64300456C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					293DBA1A2B27C64300456C95 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					293DBA2B2B27C64700456C95 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 293DBA1A2B27C64300456C95;
+					};
+					293DBA352B27C64700456C95 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 293DBA1A2B27C64300456C95;
+					};
+				};
+			};
+			buildConfigurationList = 293DBA162B27C64300456C95 /* Build configuration list for PBXProject "focusdock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293DBA122B27C64300456C95;
+			productRefGroup = 293DBA1C2B27C64300456C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293DBA1A2B27C64300456C95 /* focusdock */,
+				293DBA2B2B27C64700456C95 /* focusdockTests */,
+				293DBA352B27C64700456C95 /* focusdockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293DBA192B27C64300456C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293DBA262B27C64600456C95 /* Preview Assets.xcassets in Resources */,
+				293DBA232B27C64600456C95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBA2A2B27C64700456C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBA342B27C64700456C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293DBA172B27C64300456C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293DBA212B27C64300456C95 /* ContentView.swift in Sources */,
+				293DBA1F2B27C64300456C95 /* focusdockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBA282B27C64700456C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293DBA312B27C64700456C95 /* focusdockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBA322B27C64700456C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293DBA3D2B27C64700456C95 /* focusdockUITestsLaunchTests.swift in Sources */,
+				293DBA3B2B27C64700456C95 /* focusdockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293DBA2E2B27C64700456C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293DBA1A2B27C64300456C95 /* focusdock */;
+			targetProxy = 293DBA2D2B27C64700456C95 /* PBXContainerItemProxy */;
+		};
+		293DBA382B27C64700456C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293DBA1A2B27C64300456C95 /* focusdock */;
+			targetProxy = 293DBA372B27C64700456C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		293DBA3E2B27C64700456C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293DBA3F2B27C64700456C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		293DBA412B27C64700456C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = focusdock/focusdock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"focusdock/Preview Content\"";
+				DEVELOPMENT_TEAM = C6VRT79MF8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bonsaiclub.focusdock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		293DBA422B27C64700456C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = focusdock/focusdock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"focusdock/Preview Content\"";
+				DEVELOPMENT_TEAM = C6VRT79MF8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bonsaiclub.focusdock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		293DBA442B27C64700456C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6VRT79MF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bonsaiclub.focusdockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focusdock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/focusdock";
+			};
+			name = Debug;
+		};
+		293DBA452B27C64700456C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6VRT79MF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bonsaiclub.focusdockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focusdock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/focusdock";
+			};
+			name = Release;
+		};
+		293DBA472B27C64700456C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6VRT79MF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bonsaiclub.focusdockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = focusdock;
+			};
+			name = Debug;
+		};
+		293DBA482B27C64700456C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6VRT79MF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bonsaiclub.focusdockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = focusdock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293DBA162B27C64300456C95 /* Build configuration list for PBXProject "focusdock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBA3E2B27C64700456C95 /* Debug */,
+				293DBA3F2B27C64700456C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293DBA402B27C64700456C95 /* Build configuration list for PBXNativeTarget "focusdock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBA412B27C64700456C95 /* Debug */,
+				293DBA422B27C64700456C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293DBA432B27C64700456C95 /* Build configuration list for PBXNativeTarget "focusdockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBA442B27C64700456C95 /* Debug */,
+				293DBA452B27C64700456C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293DBA462B27C64700456C95 /* Build configuration list for PBXNativeTarget "focusdockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBA472B27C64700456C95 /* Debug */,
+				293DBA482B27C64700456C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293DBA132B27C64300456C95 /* Project object */;
+}
